@@ -1,0 +1,38 @@
+header{
+    display: flex;
+    border-bottom: 5px dotted #2618b1;
+}
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    padding: 10px;
+    color: #2618b1;
+    text-align: center;
+
+}
+
+.map {
+    position: relative;
+}
+
+.marker {
+    position: absolute;
+    left: 400px;
+    top: 200px;
+}
+
+.marker span {
+    background-color: white;
+    font-size: 25px;
+    padding: 10px;
+}
+span:hover{
+    box-shadow:inset 3px 3px 3px 3px orangered ;
+    border-radius: 5px ;
+}
+img{
+    width:300px;
+}
